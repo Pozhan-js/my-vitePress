@@ -2,7 +2,7 @@
  * @Author: Why so serious my dear 854059946@qq.com
  * @Date: 2023-07-14 21:40:00
  * @LastEditors: Why so serious my dear 854059946@qq.com
- * @LastEditTime: 2023-07-14 21:45:39
+ * @LastEditTime: 2023-07-15 00:20:37
  * @FilePath: /my-vitePress/docs/.vitepress/config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,7 +11,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'my vitePress', //网站标题
-  base: '/my-vitePress/', //将仓库名字改成base
+  base: '/', //将仓库名字改成base
   description: 'frontend docs', //网站描述
   lastUpdated: true,
   lang: 'en-US', //使用语言
